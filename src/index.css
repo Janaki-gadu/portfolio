@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@layer utilities{
+
+.perspective-\[1000px\]{
+perspective:1000px;
+}
+
+.rotate-x-\[75deg\]{
+transform:rotateX(75deg);
+}
+
+.duration-\[25000\]{
+animation-duration:25s;
+}
+
+}
