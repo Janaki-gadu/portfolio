@@ -30,16 +30,16 @@ export default function PortfolioV2() {
       description:
         "Built an end-to-end education management platform enabling educators to handle student attendance, fee tracking, communication, and scheduling through a scalable web dashboard.",
       tools: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-      link: "https://www.figma.com/proto/YT5AfEQvslLhpSk2rkhUcO/LearnMate?node-id=0-1&t=NTmos8Fv0Eleed5k-1",
+      link: "https://github.com/Janaki-gadu/learnmate",
     },
     {
-      title: "Razorpay Payment Gateway Integration",
+      title: "CascadeGuard AI – Payment Gateway & Fraud Prevention",
       image: "/razorpay.png",
-      category: "Full Stack + FinTech",
+      category: "Full Stack + FinTech AI",
       description:
-        "Engineered a secure, end-to-end payment processing workflow with Razorpay API, including server-side order generation, checkout handling, and HMAC-SHA256 signature verification.",
-      tools: ["Node.js", "Express", "React", "Razorpay API", "REST APIs"],
-      link: "https://github.com/Janaki-gadu",
+        "Engineered an intelligent payment and risk evaluation platform combining secure Razorpay checkout flows with automated transaction screening, real-time fraud monitoring, and interactive analytics.",
+      tools: ["Streamlit", "Python", "Razorpay API", "Risk Analytics", "REST APIs"],
+      link: "https://cascadeguardai-qgrx53cu3ivy9hmpjef4nb.streamlit.app/",
     },
     {
       title: "WhatsPlan – Smart Planning & Productivity App",
@@ -48,16 +48,7 @@ export default function PortfolioV2() {
       description:
         "Built a productivity-focused planning prototype that improves task organization, workflow clarity, and user efficiency with intuitive interaction design.",
       tools: ["Figma", "UX Strategy", "Workflow Design"],
-      link: "https://www.figma.com/proto/Qx8LxgVSnwp0kTwCnN8uLF/WhatsPlan-Prototype?t=NTmos8Fv0Eleed5k-1",
-    },
-    {
-      title: "Hotstar OTT UI/UX Redesign",
-      image: "/hotstar.png",
-      category: "OTT + UI/UX",
-      description:
-        "Independently redesigned the OTT streaming experience with enhanced navigation, accessibility, and personalized content discovery.",
-      tools: ["Figma", "OTT", "Wireframing", "User Flow"],
-      link: "https://www.figma.com/proto/u5bv34tLlxQKvdhbtM5MYC/Hotstar?t=NTmos8Fv0Eleed5k-1",
+      link: "https://github.com/Janaki-gadu",
     },
     {
       title: "ReqGenie",
@@ -94,6 +85,7 @@ export default function PortfolioV2() {
     "UI/UX Design",
     "Wireframing",
     "Prototyping",
+    "React Native",
     "Python",
     "JavaScript",
     "SQL",
@@ -112,6 +104,7 @@ export default function PortfolioV2() {
   ];
 
   const certifications = [
+    "Mobile App Development with React Native – AICTE EduSkills",
     "UI/UX Design – Tech Mahindra",
     "Python Essentials – Cisco",
     "AICTE Smart India Hackathon",
@@ -127,7 +120,7 @@ export default function PortfolioV2() {
     {
       title: "Development",
       icon: "💻",
-      skills: ["Python", "C", "C++", "JavaScript", "HTML/CSS", "SQL"],
+      skills: ["React Native", "React", "Node.js", "Express", "MongoDB", "Python", "JavaScript", "HTML/CSS", "SQL"],
     },
     {
       title: "AI & Innovation",
@@ -142,9 +135,9 @@ export default function PortfolioV2() {
   ];
 
   const stats = [
-    { number: "9+", label: "Projects Built" },
+    { number: "8+", label: "Projects Built" },
     { number: "4+", label: "Hackathons & Innovation Events" },
-    { number: "3+", label: "Internships & Practical Experiences" },
+    { number: "4+", label: "Internships & Practical Experiences" },
     { number: "100%", label: "Independent Creativity & Execution" },
   ];
 
@@ -244,7 +237,7 @@ export default function PortfolioV2() {
           <div className="inline-flex items-center gap-2 border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
             <p className="text-cyan-300 text-sm">
-              UI/UX DESIGNER • MERN DEVELOPER • AI INNOVATOR
+              UI/UX DESIGNER • FULL STACK DEVELOPER • AI INNOVATOR
             </p>
           </div>
 
@@ -288,6 +281,7 @@ export default function PortfolioV2() {
 
           <div className="flex gap-5 mt-10 text-sm text-slate-400 flex-wrap">
             <span>🎨 UI/UX</span>
+            <span>📱 React Native</span>
             <span>⚡ MERN Stack</span>
             <span>🤖 AI Systems</span>
             <span>🛡 Cybersecurity</span>
@@ -303,8 +297,8 @@ export default function PortfolioV2() {
             </div>
 
             <div className="bg-slate-900/70 border border-purple-500/30 backdrop-blur-xl rounded-3xl p-6 hover:-translate-y-2 hover:shadow-purple-500/20 hover:shadow-xl transition-all duration-300">
-              <h3 className="font-bold text-purple-400 text-xl">💻 Full Stack</h3>
-              <p className="text-slate-300 mt-3">React • Node.js • MongoDB • Express</p>
+              <h3 className="font-bold text-purple-400 text-xl">💻 Full Stack & Mobile</h3>
+              <p className="text-slate-300 mt-3">React Native • MERN • REST APIs</p>
             </div>
 
             <div className="bg-slate-900/70 border border-pink-500/30 backdrop-blur-xl rounded-3xl p-6 hover:-translate-y-2 hover:shadow-pink-500/20 hover:shadow-xl transition-all duration-300">
@@ -507,6 +501,7 @@ export default function PortfolioV2() {
           </p>
           <div className="flex flex-wrap gap-3">
             {[
+              "React Native",
               "Cybersecurity",
               "Artificial Intelligence",
               "MERN Stack",
@@ -576,48 +571,44 @@ export default function PortfolioV2() {
       <section id="experience" className="max-w-7xl mx-auto px-6 py-16">
         <h3 className="text-4xl font-bold mb-8">Internships, Achievements & Certifications</h3>
 
-        {/* Highlighted Completed Internship */}
-        <div className="mb-10 bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-pink-500/10 rounded-3xl p-8 border border-cyan-400/20 shadow-xl">
-          <span className="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wider mb-3 border border-emerald-400/30">
-            COMPLETED | APR 2026 – JUN 2026
-          </span>
-          <h4 className="text-3xl font-bold mb-3">AICTE EduSkills Virtual Internship — MERN Full Stack Development + Project</h4>
-          <p className="text-slate-300 leading-relaxed mb-4">
-            Completed an intensive 8-week structured MERN Full Stack Development program. Built and deployed responsive, scalable web applications incorporating React, Tailwind CSS, Redux state management, Node.js and Express.js REST APIs, MongoDB schema design, and secure JWT authentication.
-          </p>
-          <div className="flex flex-wrap gap-3">
-            {["React", "TailwindCSS", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT", "REST APIs"].map((tech) => (
-              <span key={tech} className="px-3 py-2 rounded-2xl bg-white/10 text-sm">{tech}</span>
-            ))}
-          </div>
-        </div>
-
         <div className="grid lg:grid-cols-[2fr_1fr] gap-8">
           <div className="bg-white/[0.04] backdrop-blur-xl rounded-3xl p-8 border border-white/15">
             <div className="relative border-l border-cyan-500/30 ml-4 space-y-12">
               {[
                 {
+                  role: "Mobile App Development Intern (React Native)",
+                  company: "AICTE EduSkills Virtual Internship",
+                  period: "June – August 2026",
+                  details:
+                    "Successfully completed an 8-week virtual internship focusing on cross-platform mobile development using React Native, component-based architectures, and mobile UX design.",
+                },
+                {
                   role: "MERN Full Stack Intern",
-                  company: "AICTE EduSkills",
-                  year: "2026",
+                  company: "AICTE EduSkills Virtual Internship",
+                  period: "April – June 2026",
+                  details:
+                    "Completed an 8-week structured full-stack program building applications with React, Tailwind CSS, Redux, Node.js, Express, and MongoDB.",
                 },
                 {
                   role: "Android Developer Virtual Intern",
                   company: "AICTE EduSkills",
-                  year: "2026",
+                  period: "2026",
+                  details: "Worked on core Android application development and fundamentals.",
                 },
                 {
                   role: "UI/UX Intern",
                   company: "Tech Mahindra",
-                  year: "2022",
+                  period: "2022",
+                  details: "Designed intuitive wireframes and interactive prototypes for user-centric digital products.",
                 },
               ].map((item) => (
                 <div key={item.role} className="relative pl-10">
                   <div className="absolute -left-[11px] top-2 w-5 h-5 rounded-full bg-cyan-400 shadow-lg shadow-cyan-500/50" />
                   <div className="bg-white/[0.04] rounded-3xl p-6 border border-white/10">
-                    <p className="text-cyan-400 text-sm mb-2">{item.year}</p>
+                    <p className="text-cyan-400 text-sm mb-2">{item.period}</p>
                     <h4 className="text-2xl font-bold">{item.role}</h4>
-                    <p className="text-slate-300 mt-2">{item.company}</p>
+                    <p className="text-purple-300 font-medium mt-1">{item.company}</p>
+                    <p className="text-slate-300 text-sm mt-3 leading-relaxed">{item.details}</p>
                   </div>
                 </div>
               ))}
