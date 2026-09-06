@@ -241,12 +241,11 @@ export default function PortfolioV2() {
             </p>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15] mb-6">
             Designing{" "}
             <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
               Intelligent Products.
-            </span>
-            <br />
+            </span>{" "}
             Building Real-World{" "}
             <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
               Solutions.
@@ -530,9 +529,10 @@ export default function PortfolioV2() {
               key={project.title}
               className="group relative bg-white/[0.04] backdrop-blur-xl rounded-3xl p-6 border border-white/15 hover:-translate-y-3 hover:border-cyan-400/50 transition-all duration-500 overflow-hidden flex flex-col justify-between"
             >
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-cyan-500/10 to-purple-500/10" />
+              {/* Pointer-events-none ensures gradient overlay does not block clicks */}
+              <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-cyan-500/10 to-purple-500/10" />
 
-              <div>
+              <div className="relative z-10">
                 <div className="aspect-video overflow-hidden rounded-2xl mb-5">
                   <img
                     src={project.image}
@@ -545,7 +545,7 @@ export default function PortfolioV2() {
                 <p className="text-slate-300 mb-4">{project.description}</p>
               </div>
 
-              <div>
+              <div className="relative z-10">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tools.map((tool) => (
                     <span key={tool} className="text-xs px-3 py-1 rounded-xl bg-white/10">
@@ -557,7 +557,7 @@ export default function PortfolioV2() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 rounded-2xl bg-white text-slate-900 font-medium hover:scale-105 transition"
+                  className="inline-block px-5 py-2.5 rounded-2xl bg-white text-slate-900 font-medium hover:scale-105 transition cursor-pointer relative z-20"
                 >
                   View Project
                 </a>
@@ -578,9 +578,9 @@ export default function PortfolioV2() {
                 {
                   role: "Mobile App Development Intern (React Native)",
                   company: "AICTE EduSkills Virtual Internship",
-                  period: "June – August 2026",
+                  period: "June – August 2026[cite: 1]",
                   details:
-                    "Successfully completed an 8-week virtual internship focusing on cross-platform mobile development using React Native, component-based architectures, and mobile UX design.",
+                    "Successfully completed an 8-week virtual internship focusing on cross-platform mobile development using React Native, component-based architectures, and mobile UX design[cite: 1].",
                 },
                 {
                   role: "MERN Full Stack Intern",
