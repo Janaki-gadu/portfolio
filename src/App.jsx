@@ -30,7 +30,7 @@ export default function PortfolioV2() {
       description:
         "Built an end-to-end education management platform enabling educators to handle student attendance, fee tracking, communication, and scheduling through a scalable web dashboard.",
       tools: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-      link: "https://github.com/Janaki-gadu/learnmate",
+      link: "https://learnmate-avpk.vercel.app/",
     },
     {
       title: "CascadeGuard AI – Payment Gateway & Fraud Prevention",
